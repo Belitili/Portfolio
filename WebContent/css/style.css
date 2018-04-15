@@ -1,0 +1,66 @@
+/* img */
+#profielfoto {
+    display: block;
+	width: 30%; /* you can use % */
+	height: auto;
+	border-radius: 50%;  
+	margin-top: -30px;
+	margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    max-width: 300px;
+}
+
+/* main */
+main {
+	margin: 60px 0;
+	margin-bottom: 150px;
+}
+
+/* footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    opacity: 0.85;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+/* ICON */
+
+.ico-social {
+    display: block;
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    opacity: .75;
+    transition: all 300ms ease;
+    position: relative;
+    top: 5px;
+}
+
+.ico-social-container {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.ico-social:active,
+.ico-social:hover,
+.ico-social:focus {
+    opacity: 1;
+    width: 64px;
+    height: 64px;
+    top: 0;
+}
+
+.ico-social.ico-facebook { background-image: url(../img/icons/facebook-logo-button.png); }
+.ico-social.ico-linkedin { background-image: url(../img/icons/linkedin-button.png); }
+.ico-social.ico-mail { background-image: url(../img/icons/mail-button.png); }
